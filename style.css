@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+  .section-A {
+    background-image: url("image/section-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 600px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .part-A {
+    margin: 0 auto;
+  }
+  .menu {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 120px;
+  }
+  .purpose {
+    margin: 50px 0px 0px;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  
+  .section-B {
+    margin-top: 30px;
+    background-color: #ebebeb;
+  }
+  .img-sec_b {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .sec-b-rhs {
+    padding: 220px 0px 0px 35px;
+  }
+  .rhs-content {
+    font-size: 52px;
+  }
+  .but {
+    border-style: solid;
+    border-color: red;
+    background-color: transparent;
+    padding: 10px 50px;
+  }
+  .but:hover {
+    color: black;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+  }
+  .elementor-box {
+    display: flex;
+    gap: 20px;
+    margin: 80px 0px 80px !important;
+  }
+  
+  .section-C {
+    margin-top: 30px;
+    background-image: url("image/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+  }
+  .content-section-c {
+    color: white;
+    padding: 150px 20px 30px 0px;
+  }
+  .elementor-icon-box-title span {
+    color: red;
+  }
+  .highlight {
+    font-size: 50px;
+  }
+  .logo {
+    width: 100%;
+    background-color: white;
+    border-radius: 50px;
+  }
+  .logo-sec-c {
+    margin-top: 40px !important;
+  }
+  
+  .section-D {
+    margin-top: 30px;
+    background-color: #ebebeb;
+  }
+  .sec-d-container {
+    padding: 100px 0px;
+  }
+  .sec-d-img1 {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .sec-d-img2 {
+    width: 100%;
+  }
+  .sec-d-rhs {
+    padding: 120px 0px 0px 0px;
+  }
+  .rhs-content {
+    font-size: 60px;
+  }
+  .but {
+    border-color: red;
+    background-color: transparent;
+    padding: 10px 50px;
+  }
+  
+  .section-E {
+    margin-top: 30px;
+    background-image: url("image/pic16.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 650px;
+  }
+  .content-e {
+    padding: 100px 0px;
+    color: white;
+  }
+  .title-e {
+    font-weight: 600;
+    font-size: 150px;
+    line-height: 120px;
+    margin-top: 50px;
+  }
+  .purpose span {
+    color: red;
+  }
+  .sec-d-btn {
+    margin-top: 40px;
+    padding: 10px 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    color: white;
+  }
+  .sec-d-btn:hover {
+    color: black;
+    background-color: white;
+  }
+  .section-F {
+    background-color: #ebebeb;
+    margin-top: 30px;
+  }
+  .sec-f {
+    margin: 60px 0px !important;
+  }
+  .elementor-head-text {
+    font-size: 35px;
+    margin: 20px 0px;
+  }
+  .sec-f-name {
+    color: red;
+  }
+  
+  .section-G {
+    margin-top: 30px;
+    background-color: #ebebeb;
+  }
+  .sec-g {
+    padding: 100px 0px;
+  }
+  .sec-g-img {
+    margin: 20px 0px;
+  }
+  .sec-g-img img {
+    width: 100%;
+  }
+  .sec-g-text {
+    font-size: 60px;
+    margin: 20px 0px;
+  }
+  
+  .section-H {
+    margin-top: 30px;
+  }
+  .elementor-text {
+    font-size: 60px;
+  }
+  .content-sec-h {
+    background-color: #ff4362;
+    color: white;
+    padding: 180px 100px 100px;
+  }
+  .sec-h {
+    padding: 80px 20px;
+  }
+  .name-box {
+    width: 70%;
+    margin: 20px 0px 0px;
+    background-color: #dddddd;
+    border: none;
+    padding: 10px 12px;
+  }
+  .email-box {
+    width: 70%;
+    margin: 20px 0px 0px;
+    background-color: #dddddd;
+    border: none;
+    padding: 10px 12px;
+  }
+  .subject-box {
+    width: 70%;
+    margin: 20px 0px 0px;
+    background-color: #dddddd;
+    border: none;
+    padding: 10px 12px;
+  }
+  .sec-h-text {
+    font-size: 70px;
+  }
+  .message-box {
+    width: 70%;
+    margin: 20px 0px;
+    background-color: #dddddd;
+    border: none;
+    padding: 10px 0px 50px 10px;
+  }
+  .sec-h-btn {
+    margin-top: 40px;
+    padding: 10px 50px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: red;
+    color: black;
+  }
+  .sec-h-btn:hover {
+    color: black;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+  }
+  .logo-sec-h {
+    margin-top: 40px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    background-color: black;
+    height: 100px;
+  }
+  
+  @media screen and (max-width: 425px) {
+    body {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+    }
+    .section-A {
+      background-image: url("image/section-background.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      height: 600px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 20px;
+    }
+    .part-A {
+      margin: 0 auto;
+    }
+    .menu {
+      display: flex;
+      justify-content: end;
+      gap: 20px;
+    }
+    .title {
+      font-weight: 600;
+      font-size: 150px;
+      line-height: 120px;
+    }
+    .purpose {
+      margin: 50px 0px 0px;
+      font-weight: 400;
+      font-size: 30px;
+    }
+  
+    .section-B {
+      margin-top: 30px;
+      background-color: #ebebeb;
+    }
+    .img-sec_b {
+      width: 100%;
+      padding: 100px 0px;
+    }
+    .img-sec_b img {
+      width: 100%;
+    }
+    .sec-b-rhs {
+      padding: 70px 0px 0px 35px;
+    }
+    .rhs-content {
+      font-size: 52px;
+    }
+    .but {
+      margin: 30px 0px;
+      border-style: solid;
+      border-color: red;
+      background-color: transparent;
+      padding: 5px 25px;
+    }
+    .but:hover {
+      color: black;
+      border-style: solid;
+      border-color: white;
+      background-color: white;
+    }
+    .element-box {
+      display: flex;
+      flex-direction: column;
+    }
+    .elementor-box {
+      display: flex;
+      flex-direction: column;
+      width: 80px;
+      margin: 0 auto;
+      gap: 20px;
+      margin: 80px 0px 80px !important;
+    }
+  
+    .section-C {
+      margin-top: 30px;
+      background-image: url("image/hero.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 600px;
+    }
+    .content-section-c {
+      color: white;
+      padding: 50px 20px 30px 0px;
+    }
+    .elementor-icon-box-title span {
+      color: red;
+    }
+    .highlight {
+      font-size: 50px;
+    }
+    .logo {
+      width: 100%;
+      background-color: white;
+      border-radius: 50px;
+    }
+    .logo-sec-c {
+      margin-top: 40px !important;
+    }
+  
+    .section-D {
+      margin-top: 30px;
+      background-color: #ebebeb;
+    }
+    .sec-d-container {
+      display: flex;
+      flex-direction: column;
+      padding: 100px 0px;
+    }
+    .sec-d-con {
+      display: flex;
+      flex-direction: column;
+    }
+    .sec-d-img {
+      width: 100%;
+    }
+    .sec-d-img1 {
+      width: 100%;
+      margin: 10px 0px;
+    }
+    .sec-d-img2 {
+      width: 100%;
+    }
+    .sec-d-rhs {
+      padding: 90px 0px 0px 0px;
+    }
+    .rhs-content {
+      font-size: 60px;
+    }
+    .but {
+      border-color: red;
+      background-color: transparent;
+      padding: 10px 50px;
+    }
+  
+    .section-E {
+      margin-top: 30px;
+      background-image: url("image/pic16.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 650px;
+    }
+    .content-e {
+      padding: 100px 0px;
+      color: white;
+    }
+    .title-e {
+      font-weight: 600;
+      font-size: 90px;
+      line-height: 120px;
+      margin-top: 50px;
+    }
+    .purpose span {
+      color: red;
+    }
+    .sec-d-btn {
+      margin-top: 40px;
+      padding: 10px 50px;
+      background-color: transparent;
+      border-style: solid;
+      border-color: white;
+      color: white;
+    }
+    .sec-d-btn:hover {
+      color: black;
+      background-color: white;
+    }
+    .section-F {
+      background-color: #ebebeb;
+      margin-top: 30px;
+    }
+    .sec-f {
+      margin: 60px 0px !important;
+    }
+    .elementor-head-text {
+      font-size: 18px;
+      margin: 20px 0px;
+    }
+    .sec-f-name {
+      color: red;
+    }
+  
+    .section-G {
+      margin-top: 30px;
+      background-color: #ebebeb;
+    }
+    .sec-g {
+      padding: 100px 0px;
+    }
+    .sec-g-img {
+      margin: 20px 0px;
+    }
+    .sec-g-img img {
+      width: 100%;
+    }
+    .sec-g-text {
+      font-size: 60px;
+      margin: 20px 0px;
+    }
+  
+    .section-H {
+      margin-top: 30px;
+    }
+    .elementor-text {
+      font-size: 60px;
+    }
+    .content-sec-h {
+      background-color: #ff4362;
+      color: white;
+      padding: 180px 100px 100px;
+    }
+    .sec-h {
+      padding: 80px 20px;
+    }
+    .sec-h-cont {
+      display: flex;
+      flex-direction: column;
+    }
+    .name-box {
+      width: 70%;
+      margin: 20px 0px 0px;
+      background-color: #dddddd;
+      border: none;
+      padding: 10px 12px;
+    }
+    .email-box {
+      width: 70%;
+      margin: 20px 0px 0px;
+      background-color: #dddddd;
+      border: none;
+      padding: 10px 12px;
+    }
+    .subject-box {
+      width: 70%;
+      margin: 20px 0px 0px;
+      background-color: #dddddd;
+      border: none;
+      padding: 10px 12px;
+    }
+    .sec-h-text {
+      font-size: 70px;
+    }
+    .message-box {
+      width: 70%;
+      margin: 20px 0px;
+      background-color: #dddddd;
+      border: none;
+      padding: 10px 0px 50px 10px;
+    }
+    .sec-h-btn {
+      margin-top: 40px;
+      padding: 10px 50px;
+      background-color: transparent;
+      border-style: solid;
+      border-color: red;
+      color: black;
+    }
+    .sec-h-btn:hover {
+      color: black;
+      border-style: solid;
+      border-color: black;
+      background-color: white;
+    }
+    .logo-sec-h {
+      margin-top: 40px !important;
+      display: flex;
+      justify-content: center;
+    }
+    .footer {
+      display: flex;
+    }
+  }
+  
